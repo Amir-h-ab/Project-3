@@ -1326,7 +1326,8 @@ strong {
         font-size: 18px;
     }
     .description-title {
-        left: 2rem;
+        /* left: 2rem; */
+        text-align: center;
     }
     .align-main-item{
         display: block;
@@ -1417,9 +1418,9 @@ strong {
     }
 }
 @media only screen and (max-width: 685px) {
-    .description-title {
+    /* .description-title {
         left: -10rem;
-    }
+    } */
     .img-aside-left {
         width: 20rem;
     }
