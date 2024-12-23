@@ -358,6 +358,9 @@ html {
 .img-main {
     width: 100%;
 }
+.tired {
+    display: none;
+}
 .description-title {
     position: absolute;
     top: 10rem;
@@ -1417,10 +1420,16 @@ strong {
         margin: 2rem;
     }
 }
+@media only screen and (max-width: 710px) {
+    /* .icon-svg-fixed-2 {
+        margin: 2rem 5rem;
+    } */
+}
 @media only screen and (max-width: 685px) {
     /* .description-title {
         left: -10rem;
     } */
+     
     .img-aside-left {
         width: 20rem;
     }
@@ -1456,6 +1465,10 @@ strong {
     .thumbnail {
         width: 15rem;
     }
+    .icon-svg-fixed-2 {
+        left: 2rem;
+    }
+
 }
 @media only screen and (max-width: 576px) {
     .aside-right-text:first-child {
@@ -1497,6 +1510,15 @@ strong {
     .img-form-lable {
         text-align: center;
     }
+    .container-box {
+        width: 110%;
+    }
+    /* .icon-svg-fixed-2 {
+        margin: 2rem 5rem;
+    } */
+    .icon-svg-fixed-1 {
+        margin: 2rem -1rem;
+    }
 }
 @media only screen and (max-width: 506px) {
     .align-box-pac {
@@ -1517,6 +1539,11 @@ strong {
         font-size: 14px;
         white-space: nowrap;
     }
+}
+@media only screen and (max-width: 478px) {
+    /* .container-box {
+        width: 110%;
+    } */
 }
 @media only screen and (max-width: 478px) {
     .welcome-text {
@@ -1565,6 +1592,40 @@ strong {
     }
     .grid-item-footer {
         grid-template-columns: 18rem;
+    }
+}
+@media only screen and (max-width: 390px) {
+    .container-box {
+        width: 24rem;
+    }
+    .icon-svg-fixed-1 {
+        margin: 1rem;
+        padding: 0.8rem;
+    }
+    .icon-svg-fixed-2 {
+        margin: 1rem;
+        padding: 0.8rem;
+    }
+    .description-title {
+        display: none;
+    }
+    .tired {
+        display: block;
+        position: absolute;
+        bottom: 1rem;
+        font-size: 12px;
+        text-align: center;
+    }
+    #green-text {
+        color: var(--olive);
+    }
+}
+@media only screen and (max-width: 320px) {
+    .icon-svg-fixed-1 {
+        right: -3rem;
+    }
+    .icon-svg-fixed-2 {
+        left: 4rem;
     }
 }
 @media only screen and (max-width: 320px) {
